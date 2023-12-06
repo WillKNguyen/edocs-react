@@ -12,7 +12,7 @@ function SearchBar({width, height}) {
         if (!inputValue || inputValue.trim() === ''){
             setHighlightEmpty(true)
         } else {
-            navigate(`/result?search=${encodeURIComponent(inputValue)}`)
+            navigate(`result?search=${encodeURIComponent(inputValue)}`)
         }
     }
 

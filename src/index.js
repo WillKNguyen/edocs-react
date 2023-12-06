@@ -10,8 +10,8 @@ function App(){
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<LandingPage/>}></Route>
-        <Route path='/result' element={<ResultPage/>}></Route>
+        <Route path='/edocs-react' element={<LandingPage/>}></Route>
+        <Route path='/edocs-react/result' element={<ResultPage/>}></Route>
       </Routes>
     </BrowserRouter>
   )
