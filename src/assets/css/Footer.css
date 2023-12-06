@@ -1,0 +1,34 @@
+.footer{
+    font-size: 11px;
+    background-color: #4C4B4C;
+    color: #FFFFFF;
+}
+
+.footer .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+.footer .top .rotate{
+    transform: rotate(180deg);
+}
+
+.footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.footer .bottom .links{
+    display: flex;
+    gap: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+

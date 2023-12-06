@@ -1,0 +1,60 @@
+body, #root {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  margin: 0;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.firstSearchPageContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  gap: 10px;
+  height: 100%; /* Ensure it takes the full height of its parent */
+}
+
+.hintContainer {
+  position: relative;
+}
+
+.hintLink {
+  cursor: pointer;
+  color: #0D71C6;
+  display: inline-block;
+}
+
+.popover-container {
+  font-size: 12px;
+  position: absolute;
+  top: 150%;
+  left: -20%;
+  background-color: #fff; /* Background color of the popover */
+  border: 1px solid #ccc; /* Border color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+  padding: 10px; /* Adjust as needed */
+}
+
+.popover-arrow {
+  position: absolute;
+  top: -8%;
+  left: 47%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent;
+  border-bottom-color: #ACB0B5;
+}
+

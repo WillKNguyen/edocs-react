@@ -1,0 +1,38 @@
+@keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translateX(5px);
+    }
+}
+
+#searchBar {
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    border-width: thin;
+    border-color: grey;
+    padding: 5px;
+    width: 692px;
+}
+
+#searchBar #searchInput {
+    border: none;
+    outline: none;
+}
+
+#searchBar #searchIcon {
+    width: 20px;
+    height: 20px;
+}
+
+#searchBar.empty{
+    border: 2px solid rgba(255, 0, 0, 0.658);
+    animation: shake 0.5s ease-in-out; 
+}

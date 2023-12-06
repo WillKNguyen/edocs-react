@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+}
+
+.header #searchBar{
+    margin: 10px;
+}
+
+.header .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

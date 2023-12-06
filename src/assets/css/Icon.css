@@ -1,0 +1,73 @@
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s ease-in-out; 
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    height: 100%;
+}
+
+.icon:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.icon .show{
+    display: flex;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.icon .show img {
+    width: 15px;
+    margin: 1px;
+}
+
+.icon .content.visible {
+    display: block; /* Show the content when visible */
+}
+
+.icon .content.hidden {
+    display: none; /* Hide the content when not visible */
+}
+
+.icon .links, .settings{
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: max-content;
+    border-radius: 2px;
+    background-color: white;
+    z-index: 100;
+}
+
+.icon h3, h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon .settings #columnSearchBox{
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    border-width: thin;
+    border-color: grey;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+
+.icon .settings #columnSearchBox #columnInput{
+    border: none;
+}
+
+.icon .settings #options{
+    display: flex;
+    flex-direction: column;
+}
