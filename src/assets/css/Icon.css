@@ -67,6 +67,10 @@
     border: none;
 }
 
+.icon .settings #columnSearchBox #columnInput:focus{
+    outline: none;
+}
+
 .icon .settings #options{
     display: flex;
     flex-direction: column;

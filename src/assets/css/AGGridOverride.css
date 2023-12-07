@@ -1,3 +1,12 @@
+@font-face{
+    font-family: 'Akkurat';
+    src: url('../font/FontsFree-Net-Akkurat.ttf');
+  }
+
+.ag-theme-quartz{
+    font-family: 'Akkurat';
+}
+
 .ag-paging-panel{
     justify-content: center;
 }
