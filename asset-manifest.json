@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/edocs-react/static/css/main.7ae12a24.css",
+    "main.css": "/edocs-react/static/css/main.66446707.css",
     "main.js": "/edocs-react/static/js/main.d6af8a6e.js",
     "static/js/787.6af3308c.chunk.js": "/edocs-react/static/js/787.6af3308c.chunk.js",
+    "static/media/FontsFree-Net-Akkurat.ttf": "/edocs-react/static/media/FontsFree-Net-Akkurat.b243cfd2365608142aad.ttf",
     "static/media/spg_footer.svg": "/edocs-react/static/media/spg_footer.b8723f62d16c9c4e7bb1202d69bba209.svg",
     "index.html": "/edocs-react/index.html",
-    "main.7ae12a24.css.map": "/edocs-react/static/css/main.7ae12a24.css.map",
+    "main.66446707.css.map": "/edocs-react/static/css/main.66446707.css.map",
     "main.d6af8a6e.js.map": "/edocs-react/static/js/main.d6af8a6e.js.map",
     "787.6af3308c.chunk.js.map": "/edocs-react/static/js/787.6af3308c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ae12a24.css",
+    "static/css/main.66446707.css",
     "static/js/main.d6af8a6e.js"
   ]
 }
